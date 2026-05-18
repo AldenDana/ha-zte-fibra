@@ -1,0 +1,5 @@
+DOMAIN = "zte_fibra_tracker"
+CONF_SCAN_INTERVAL = "scan_interval"
+DEFAULT_HOST = "192.168.1.1"
+DEFAULT_USERNAME = "admin"
+DEFAULT_SCAN_INTERVAL = 30

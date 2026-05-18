@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "ZTE Fibra Router",
+        "description": "Connect to your ZTE Fibra router for device tracking.",
+        "data": {
+          "host": "Host (IP address)",
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to the router. Check the host and credentials."
+    },
+    "abort": {
+      "already_configured": "This router is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "ZTE Fibra Options",
+        "data": {
+          "scan_interval": "Scan interval (seconds, 10–300)"
+        }
+      }
+    }
+  }
+}
