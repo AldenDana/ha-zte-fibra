@@ -1,13 +1,13 @@
 {
   "domain": "zte_fibra_tracker",
   "name": "ZTE Fibra Router Tracker",
-  "version": "1.0.0",
-  "config_flow": true,
-  "integration_type": "hub",
-  "iot_class": "local_polling",
   "codeowners": ["@AldenDana"],
-  "requirements": [],
+  "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/AldenDana/ha-zte-fibra",
-  "issue_tracker": "https://github.com/AldenDana/ha-zte-fibra/issues"
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/AldenDana/ha-zte-fibra/issues",
+  "requirements": [],
+  "version": "1.0.0"
 }
